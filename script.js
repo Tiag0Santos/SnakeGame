@@ -12,7 +12,7 @@ function criarBG() {
     context.fillRect(0, 0, 16 * box, 16 * box);
 }
 
-criarBG();function criarCobrinha(){
+function criarCobrinha(){
     for(i=0; i < snake.length; i++){
         context.fillStyle = "green";
         context.fillRect(snake[i].x, snake[i].y, box, box);
