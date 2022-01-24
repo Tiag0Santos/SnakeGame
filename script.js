@@ -19,3 +19,5 @@ criarBG();function criarCobrinha(){
     }
 }
 
+criarBG();
+criarCobrinha();
