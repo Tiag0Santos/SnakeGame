@@ -1,4 +1,23 @@
 body{
+    background-image: url(img/imagem-de-fundo.jpg);     
+    background-size: 1370px 660px; 
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: lightgreen;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px; 
+    border: solid 1px lightgreen;   
+    margin: auto; 
+    margin-top: 10px;
+}
+
+.botoes{    
     display: flex;
     justify-content: flex-start;
     align-items: center;
