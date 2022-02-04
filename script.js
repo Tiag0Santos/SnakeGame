@@ -1,3 +1,6 @@
+let novoJogo = document.getElementById("iniciar");{
+    novoJogo.addEventListener("click", start);    
+}
 let canvas = document.getElementById("snake");
 let context = canvas.getContext("2d");
 let box = 32;
@@ -10,6 +13,10 @@ let direction = "right";
 let food = {
     x: Math.floor(Math.random() * 15 + 1) * box,
     y: Math.floor(Math.random() * 15 + 1) * box
+}
+
+function start(){
+    jogo = setInterval(iniciarJogo, 100);
 }
 
 function criarBG() {
