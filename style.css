@@ -18,6 +18,32 @@ body{
 }
 
 .botoes{    
+    display: flex;    
+    justify-content:center;
+    align-items:center;
+}
+
+.botao{
+    display: flex;
+    background-color: black;
+    color: lightgreen;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgreen;
+    border-radius: 30px;
+    width: 130px;    
+    height: 35px;   
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;      
+}
+
+.botao:hover{
+    background-color: lightgreen;
+    color: black;
+}
+
+.jogo{
     display: flex;
     justify-content: flex-start;
     align-items: center;
